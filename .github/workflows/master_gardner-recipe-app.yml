@@ -20,7 +20,7 @@ jobs:
     - name: Set up Python version
       uses: actions/setup-python@v1
       with:
-        python-version: '3.6'
+        python-version: '3.8'
 
     - name: Create and start virtual environment
       run: |
@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'gardner-recipe-app'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_8d3a1c6f368a46b88d9c0494122f5050 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_b4f1dc1a8b7b426eb96a6b5495f9bbf9 }}
